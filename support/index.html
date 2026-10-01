@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chladni Support</title>
+  <meta name="description" content="Help and contact for Chladni, the music visualizer for Mac.">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a class="brand" href="../"><img src="../assets/icon.png" alt="">Chladni</a>
+    <div class="nav-links">
+      <a href="./" aria-current="page">Support</a>
+      <a href="../privacy/">Privacy</a>
+    </div>
+  </nav>
+
+  <main class="wrap page">
+    <h1>Support</h1>
+    <p class="meta">Questions, problems or ideas? I'm happy to help.</p>
+
+    <div class="contact">
+      <strong>Contact:</strong> <a href="mailto:course@fsbitesized.com">course@fsbitesized.com</a><br>
+      I usually reply within a couple of days. Please include your macOS version and which scene you were using.
+    </div>
+
+    <h2>Common questions</h2>
+
+    <details open>
+      <summary>Nothing moves. The visuals stay still.</summary>
+      <p>Chladni only moves while audio is playing. Check that:</p>
+      <ul>
+        <li>Something is playing on your Mac, for example music or a video.</li>
+        <li>Chladni is allowed to capture audio. Open <strong>System Settings → Privacy &amp; Security → Screen &amp; System Audio Recording</strong> and make sure Chladni is turned on under <strong>System Audio Recording Only</strong>. Then quit and reopen Chladni.</li>
+        <li>The <strong>Output</strong> menu in Chladni shows the device you are actually listening on, such as your headphones or speakers.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Why does Chladni ask to capture audio?</summary>
+      <p>To visualize the sound, Chladni needs to hear what your Mac is playing. It does not use the microphone. The audio is analyzed in memory to draw the visuals and is never recorded, stored or sent anywhere. See the <a href="../privacy/">Privacy Policy</a>.</p>
+    </details>
+
+    <details>
+      <summary>How do I choose which output to visualize?</summary>
+      <p>By default, Chladni follows your Mac's current output. To pick another device, use the <strong>Output</strong> menu in the toolbar or in the menu bar icon.</p>
+    </details>
+
+    <details>
+      <summary>How do I use it as a desktop background?</summary>
+      <p>Click <strong>Background</strong> in the toolbar, or open the Chladni icon in the menu bar and turn on <strong>Background Mode</strong>. Choose which displays to use under <strong>Displays</strong>. To get the window back, choose <strong>Show Window</strong> from the menu bar icon.</p>
+    </details>
+
+    <details>
+      <summary>Keyboard shortcuts</summary>
+      <ul>
+        <li><kbd>1</kbd>–<kbd>9</kbd> and <kbd>0</kbd>: switch scene</li>
+        <li><kbd>F</kbd> or double-click: full screen, <kbd>Esc</kbd> to exit</li>
+        <li><kbd>R</kbd>: turn auto-rotate on or off</li>
+        <li>Drag to rotate and scroll to zoom in 3D scenes</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Does it use a lot of battery?</summary>
+      <p>Chladni draws with Metal on the GPU. In background mode, it pauses drawing when your desktop is covered by windows or when the audio is silent.</p>
+    </details>
+
+    <details>
+      <summary>Is there anything I should know about flashing light?</summary>
+      <p>Some scenes contain pulsing light and rapid movement that follow the music. If you are sensitive to flashing light, please use Chladni with care.</p>
+    </details>
+
+    <details>
+      <summary>How do I get a refund?</summary>
+      <p>Refunds for App Store purchases are handled by Apple. Visit <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+    </details>
+
+    <h2>Requirements</h2>
+    <p>macOS 15 or later, on Apple silicon or Intel.</p>
+  </main>
+
+  <footer>
+    <span>© 2026 Almir Mesic</span>
+    <span><a href="../">Home</a> · <a href="../privacy/">Privacy Policy</a></span>
+  </footer>
+</body>
+</html>
