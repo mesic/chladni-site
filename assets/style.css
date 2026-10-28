@@ -47,6 +47,8 @@ a:hover { text-decoration: underline; }
   display: inline-block; padding: 11px 20px; border-radius: 10px;
   border: 1px solid var(--gold); color: var(--gold); background: var(--gold-soft); font-weight: 600;
 }
+a.badge { background: var(--gold); color: var(--bg); }
+a.badge:hover { text-decoration: none; filter: brightness(1.08); }
 .usecase { margin: 36px 0 8px; text-align: center; }
 .usecase figure { margin: 0; }
 .usecase img { width: 100%; height: auto; display: block; border-radius: 14px; border: 1px solid var(--line); }
